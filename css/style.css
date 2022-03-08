@@ -1,0 +1,202 @@
+* 
+{
+box-sizing: border-box;
+}
+
+
+body{
+    background: red;
+    background: #F4F6FA;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.leftSide
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding-top: 35px;
+}
+
+.bigContent
+{
+    background-color: white;
+    width: 590px;
+    height: 718px;
+
+    border-radius: 10px;
+    border: 1px;
+    border-color: #7B7B7B;
+    border-style: dashed;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content
+{
+    width: 295px;
+    height: 350px;
+    background-color: white;
+    
+    border-radius: 10px;
+    border: 1px;
+    border-color: #7B7B7B;
+    border-style: dashed;
+
+    margin-left: 16px;
+    margin-bottom: 16px;
+
+    padding: 20px 19px 11px 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.bigContentTop
+{
+    display:flex ;
+    padding-left: 25px;
+    padding-top: 75px;
+}
+
+.bigContentButtom
+{
+    margin: auto;
+}
+
+.bigContentTopRightSide{
+    margin-left: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bigContentImage{
+    
+}
+
+.bigContentImage > img
+{
+    width: 200px;
+    height: 200px;
+
+    background: rgba(196, 196, 196, 0.55);
+    border-radius: 90px 5px 45px 5px;
+}
+
+.bigContentBrand
+{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.bigContentName > h1{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.bigContentJob{
+    display: flex;
+    justify-content: center;
+}
+
+.bigContentJob > h2{
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 144px;
+    padding: 0 8%;
+}
+
+.contentTitle{
+
+}
+
+.contentText{
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentButton{
+    width: 251px;
+    height: 36px;
+
+    background: #7B7B7B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentButtonText{
+   
+}
+
+.contentButtonText > a
+{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contentTitle > h3{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contentText > p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contentTextRight > p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contentTextLeft > p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+
